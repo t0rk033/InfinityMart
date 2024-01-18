@@ -62,3 +62,6 @@ hr{
     display: flex;
     justify-content: center;
 }
+.advertisements{
+    display: flex;
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import './home.css'
 import RowFruits from '../../components/RowFruits'
 import MeatAdvertising from '../../components/MeatAdvertising'
+import PartnerStores from '../../components/PartnerStores.jsx'
 function Home() {
   return (
     <main>
@@ -18,7 +19,10 @@ function Home() {
         <div className="hr-container">
             <hr />
         </div>
-        <MeatAdvertising />
+        <div className="advertisements">
+          <MeatAdvertising />
+          <PartnerStores />
+        </div>
         
     </main>
   )

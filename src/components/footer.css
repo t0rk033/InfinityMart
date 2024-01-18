@@ -1,0 +1,42 @@
+footer{
+    background-color: #7D0817;
+    color: #FFFF;
+    display: flex;
+    justify-content:space-between ;
+    padding: 40px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+footer ul{
+    list-style: none;
+
+}
+footer li{
+    margin: 5px;
+}
+footer i{
+    font-size: 26px;
+    margin-top: 10px;
+}
+footer h3{
+    font-size: 42px;
+}
+footer a:hover{
+    color: rgb(211, 208, 208);
+}
+.title-footer{
+    width: 375px;
+}
+
+@media screen and (max-width: 768px) {
+footer{
+    padding: 10;
+    font-size: 9px;
+}
+footer h3{
+    font-size: 21px;
+}
+footer i {
+    font-size: 13px;
+}
+}
