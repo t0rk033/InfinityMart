@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "name": "Framboesa",
+    "price": 99.50,
+    "img": "../assets/images/fruitsImages/raspberry.jpg"
+  },
+   
+    {
+      "id": 2,
+      "name": "Laranja",
+      "price": 9.49,
+      "img": "../assets/images/fruitsImages/orange.avif"
+    },
+    {
+      "id": 3,
+      "name": "Acerola",
+      "price": 29.95,
+      "img": "../assets/images/fruitsImages/acerola.webp"
+    },
+    {
+      "id": 4,
+      "name": "Tangerina",
+      "price": 8.33,
+      "img": "../assets/images/fruitsImages/tangerina.avif"
+    },
+   
+    {
+      "id": 5,
+      "name": "Maçã",
+      "price": 9.99,
+      "img": "../assets/images/fruitsImages/apple.avif"
+    },
+    {
+      "id": 6,
+      "name": "Jabuticaba",
+      "price": 69.68,
+      "img": "../assets/images/fruitsImages/jabuticaba.avif"
+    },
+    {
+      "id": 7,
+      "name": "Banana",
+      "price": 5.99,
+      "img": ""
+    },
+    {
+      "id": 8,
+      "name": "Morango",
+      "price": 12.45,
+      "img": ""
+    },
+    {
+      "id": 9,
+      "name": "Kiwi",
+      "price": 14.75,
+      "img": ""
+    },
+    {
+      "id": 10,
+      "name": "Abacaxi",
+      "price": 7.85,
+      "img": ""
+    },
+    {
+      "id": 11,
+      "name": "Pêssego",
+      "price": 11.20,
+      "img": ""
+    },
+    {
+      "id": 12,
+      "name": "Uva",
+      "price": 18.30,
+      "img": ""
+    },
+    {
+      "id": 13,
+      "name": "Melancia",
+      "price": 6.75,
+      "img": ""
+    },
+    {
+      "id": 14,
+      "name": "Manga",
+      "price": 8.99,
+      "img": ""
+    },
+    {
+      "id": 15,
+      "name": "Cereja",
+      "price": 25.50,
+      "img": ""
+    },
+    {
+      "id": 16,
+      "name": "Limão",
+      "price": 4.99,
+      "img": ""
+    },
+    {
+      "id": 17,
+      "name": "Ananás",
+      "price": 10.25,
+      "img": ""
+    },
+    {
+      "id": 18,
+      "name": "Goiaba",
+      "price": 7.60,
+      "img": ""
+    },
+    {
+      "id": 19,
+      "name": "Pera",
+      "price": 13.15,
+      "img": ""
+    },
+    {
+      "id": 20,
+      "name": "Maracujá",
+      "price": 15.99,
+      "img": ""
+    },
+    {
+      "id": 21,
+      "name": "Caju",
+      "price": 18.75,
+      "img": ""
+    },
+    {
+      "id": 22,
+      "name": "Coco",
+      "price": 22.50,
+      "img": ""
+    },
+    {
+      "id": 23,
+      "name": "Ameixa",
+      "price": 9.85,
+      "img": ""
+    },
+    {
+      "id": 24,
+      "name": "Açaí",
+      "price": 32.00,
+      "img": ""
+    },
+    {
+      "id": 25,
+      "name": "Caqui",
+      "price": 6.20,
+      "img": ""
+    },
+    {
+      "id": 26,
+      "name": "Mirtilo",
+      "price": 28.75,
+      "img": ""
+    },
+    {
+      "id": 27,
+      "name": "Pitanga",
+      "price": 14.45,
+      "img": ""
+    },
+    {
+      "id": 28,
+      "name": "Nectarina",
+      "price": 10.99,
+      "img": ""
+    },
+    {
+      "id": 29,
+      "name": "Tomate",
+      "price": 3.75,
+      "img": ""
+    },
+    {
+      "id": 30,
+      "name": "Romã",
+      "price": 20.30,
+      "img": ""
+    },
+    {
+      "id": 31,
+      "name": "Abacate",
+      "price": 15.50,
+      "img": ""
+    },
+    {
+      "id": 32,
+      "name": "Melão",
+      "price": 7.99,
+      "img": ""
+    },
+    {
+      "id": 33,
+      "name": "Amora",
+      "price": 13.90,
+      "img": ""
+    },
+    {
+      "id": 34,
+      "name": "Groselha",
+      "price": 18.20,
+      "img": ""
+    },
+    {
+      "id": 35,
+      "name": "Damasco",
+      "price": 11.80,
+      "img": ""
+    },
+    {
+      "id": 36,
+      "name": "Figos",
+      "price": 24.50,
+      "img": ""
+    },
+    {
+      "id": 37,
+      "name": "Uva-passa",
+      "price": 6.99,
+      "img": ""
+    }
+]

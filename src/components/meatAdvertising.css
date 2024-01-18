@@ -1,0 +1,58 @@
+.ads-container{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 50px;
+    
+}
+
+.meat-ads{
+    height: 50vh;
+    width: 30vw;
+    background: linear-gradient(to right,#E93425,#FDC70F) ;
+}
+.meat-ads h2{
+    color: #fff;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 28px;
+    position: relative;
+    top: 50px;
+}
+.text-ads{
+    height: 50vh;
+    width: 30vw;
+    background-color:#CE0A34;
+    
+}
+.text-ads h2{
+    color: #fff;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 28px;
+    position: relative;
+    top: 50px;
+}
+.text-ads p{
+    position: relative;
+    top: 70px;
+    width: 25vw;
+    text-align: center;
+    margin: 0 auto;
+    color: #ffffffa8;
+}
+.meats img{
+    width: 12vw;
+    height: 27vh;
+    object-fit: cover;
+    
+}
+.meat-img{
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+}
+.meats{
+    display: flex;
+    position: relative;
+    top: 100px;
+    justify-content: flex-end;
+}
