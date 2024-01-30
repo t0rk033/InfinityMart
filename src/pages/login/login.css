@@ -19,20 +19,23 @@ gap: 10px;
 border: none;
 border-radius: 18px;
 }
+
 .login-form input{
     outline: none;
     text-align: center;
+    font-size: 14px;
 }
 .login-form input[type="submit"]{
     padding: 5px 30px;
     border: none;
     border-radius: 8px;
     margin-top: 30px;
-    background-color: #fdfcfce0;
+    background-color: #09A3C6;
+    color: #fff;
     cursor: pointer;
 }
 .login-form input[type="submit"]:hover{
-    background-color: #ffc0ce;
+   opacity: .8;
 }
 
 .login-container{
@@ -41,4 +44,7 @@ border-radius: 18px;
     justify-content: center;
     align-items: center;
     height: 61vh;
+}
+.spanSingIn{
+    text-decoration: underline;
 }

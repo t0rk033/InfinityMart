@@ -6,6 +6,8 @@ footer{
     padding: 40px;
     font-size: 18px;
     margin-top: 10px;
+    
+    
 }
 footer ul{
     list-style: none;
@@ -32,9 +34,10 @@ footer a:hover{
 footer{
     padding: 10;
     font-size: 9px;
+    gap: 10px;
 }
 footer h3{
-    font-size: 21px;
+    font-size: 15px;
 }
 footer i {
     font-size: 13px;

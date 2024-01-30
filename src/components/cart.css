@@ -1,0 +1,109 @@
+.cartContainer{
+    background-color: #fff;
+    width: 55vw;
+    height: 80vh;
+    box-shadow: -8px -6px 8px rgba(0, 0, 0, 0.582);
+    position: fixed;
+    right: 2px;
+    bottom: 2px;
+    padding: 20px;
+    text-align: center;
+    border-top-left-radius: 12px;
+    display: none;
+    overflow: auto;
+}
+.cartInner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.active.cartContainer{
+    display: block;
+    z-index: 9999;
+}
+.tableContainer{
+    margin: 10px;
+
+}
+.tableContainer thead > tr > th {
+   padding: 10px;
+  
+}
+.tableContainer input[type="number"]{
+    width: 40px;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    outline: none;
+}
+.removeBtn{
+    background-color: red;
+    padding: 10px 15px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 12px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.397);
+}
+.removeBtn:hover{
+    opacity: .7;
+}
+.image-product img{
+    width: 15vw;
+}
+.finalizePurchase{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.finalizePurchaseBtn{
+padding: 10px 25px;
+background-color: #09A3C6;
+border: none;
+border-radius: 8px;
+color: #fff;
+font-size: 18px;
+font-weight: bold;
+cursor: pointer;
+position: relative;
+left: 280px;
+}
+.finalizePurchaseBtn:hover{
+    opacity: .8;
+}
+@media screen and (max-width: 768px){
+    .cartContainer{
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+        
+    }
+    .tableContainer {
+        font-size: 12px;
+    }
+    .tableContainer input[type="number"]{
+        width: 40px;
+       
+    }
+    .image-product img {
+    width: 35vw;
+      
+    }
+    .removeBtn{
+        padding: 5px 12.5px;
+    }
+    .price{
+        font-size: 18px;
+    }
+    .finalizePurchaseBtn{
+        left: 48vw;
+    }
+    .finalizePurchase span{
+        font-size: 18px;
+        position: relative;
+        left: 16vw;
+    }
+}

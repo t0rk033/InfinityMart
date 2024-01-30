@@ -11,12 +11,13 @@
     position: relative;
     left: 210px;
     top: 60px;
+    width: 50vw;
     
 }
 .big-text{
     width: 350px;
     position: relative;
-    left: 180px;
+    left: 170px;
     top: 60px;
     text-align: center;
 }
@@ -24,13 +25,13 @@
     width: 150px;
     font-size: 10px;
     position: relative;
-    left: 290px;
+    left: 268px;
     top: 80px;
     text-align: center;
 }
 .buy-btn{
     position: relative;
-    left: 310px;
+    left: 300px;
     top: 90px;
     padding: 10px 13px;
     border: none;
@@ -64,4 +65,40 @@ hr{
 }
 .advertisements{
     display: flex;
+}
+
+/*Responsividade para mobile*/
+@media screen and (max-width: 768px){
+    .home-section{
+        width: 100vw;
+        height: 60vh;
+    }
+    .home-section h1{
+        font-size: 8vh;
+        left: 41px;
+        top: 16px;
+        width: 40vw;
+        text-shadow: 1px 1px 6px black;
+    }
+    .big-text{
+        width: 275px;
+        font-size: 6.5vw;
+        left: 35px;
+        top: 26px;
+        text-shadow: 2px 4px 6px black
+    }
+    .small-text{
+        display: none;
+    }
+    .buy-btn{
+        
+        left: 125px;
+        top: 32px;
+        padding: 10px 13px;
+        border: none;
+    
+    }
+    .advertisements{
+        flex-direction: column;
+    }
 }

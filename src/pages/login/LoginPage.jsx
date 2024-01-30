@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './login.css'
 function LoginPage() {
   return (
@@ -11,9 +12,13 @@ function LoginPage() {
         <label htmlFor="passwd">Senha</label>
         <input type="password" name="passwd" id="passwd"/>
         <input type="submit" value="Entrar" />
+        <Link to='/singin' className='singIn'>Não tem uma conta? <span className='spanSingIn'>Cadastre-se</span></Link>
       </form>
     </div>
   )
 }
 
-export default LoginPage
+export default LoginPage;
+
+//futuramente incluir dados ao banco de dados e forma de manter usuario logado;
+

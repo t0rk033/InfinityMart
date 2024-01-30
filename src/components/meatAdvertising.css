@@ -56,3 +56,23 @@
     top: 100px;
     justify-content: flex-end;
 }
+@media screen and (max-width: 768px){
+    .ads-container{
+        margin-left: 10px;
+    }
+    .meat-ads{
+        width: 43vw;
+        height: 400px;
+    }
+    .text-ads{
+        width: 50vw;
+        height: 400px;
+    }
+    .text-ads p{
+        font-size: 12px;
+        width: 40vw;
+    }
+    .meats img{
+        width: 19vw;
+    }
+}

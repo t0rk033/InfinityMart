@@ -1,27 +1,34 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './navBar.css'
 import { Link } from 'react-router-dom';
 
 function NavBar() {
+  const [menuBtn, setMenuBtn] = useState('')
+  const changeClass = ()=>{
+    setMenuBtn((changeClass)=> changeClass === "" ? "active": '')
+  } 
   return (
-    <header className='navbar'>
+    <header className={`${menuBtn} navbar`}>
+     
         <div className="left-navbar">
-        <a href="#" className='logo'>InfinityMart</a>
+        <Link to='/' onClick={changeClass} className='logo'>InfinityMart</Link>
         <ul className='navLinks'>
-            <li><Link to='/login'><i class='bx bxs-user'></i> Login</Link></li>
-            <li><a href="#">Suporte</a></li>
+            <li><Link onClick={changeClass} to='/login'><i className='bx bxs-user'></i> Login</Link></li>
+            <li><Link onClick={changeClass} to='/suport'><i className='bx bx-headphone'></i> Suporte</Link></li>
         </ul>
         </div>
         <div className="right-navbar">
             <ul className="navLinks">
-                <li><a href="#">Alimentos Frescos</a></li>
-                <li><a href="#">Alimentos secos e Enlatados</a></li>
-                <li><a href="#">Produtos Congelados</a></li>
-                <li><a href="#">Bebidas</a></li>
-                <li><a href="#">Cuidados Pessoais e Limpeza</a></li>
-                <li><a href="#">Casa e outros</a></li>
+              <li><Link onClick={changeClass} to="/">Home</Link></li>
+                <li><Link onClick={changeClass} to='/freshfoods'>Alimentos Frescos</Link></li>
+                <li><Link onClick={changeClass} to='/DryAndCannedFoods'>Alimentos secos e Enlatados</Link></li>
+                <li><Link onClick={changeClass} to='/FrozenProducts'>Produtos Congelados</Link></li>
+                <li><Link onClick={changeClass} to='/drinks'>Bebidas</Link></li>
+                <li><Link onClick={changeClass} to='/PersonalCareAndCleaning'>Cuidados Pessoais e Limpeza</Link></li>
+                <li><Link onClick={changeClass} to='/HomeAndOthers'>Casa e outros</Link></li>
             </ul>
         </div>
+        <button onClick={changeClass} className="menu-btn"><i className='bx bx-menu' ></i></button>
     </header>
   )
 }

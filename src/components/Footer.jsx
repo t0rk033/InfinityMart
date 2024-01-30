@@ -14,33 +14,33 @@ function Footer() {
         </div>
       </div>
         <div className="about-footer">
-          <h3>About</h3>
+          <h3>Sobre</h3>
           <ul>
-              <li><a href="">History</a></li>
-              <li><a href="">Our Team</a></li>
-              <li><a href="">Brand Guiddins</a></li>
-              <li><a href="">Terms&Condition</a></li>
-              <li><a href="">PrivacyPolicy</a></li>
+              <li><a href="">Historia</a></li>
+              <li><a href="">Nosso Time</a></li>
+              <li><a href="">Diretrizes da Marca</a></li>
+              <li><a href="">Termos e condições</a></li>
+              <li><a href="">Politica de Privacidade</a></li>
           </ul>
         </div>
 
         <div className="services-footer">
-          <h3>Services</h3>
+          <h3>Serviços</h3>
           <ul>
-              <li><a href="">How to Order</a></li>
-              <li><a href="">Our Product</a></li>
-              <li><a href="">Order Status</a></li>
+              <li><a href="">Como Comprar</a></li>
+              <li><a href="">Nossos Produtos</a></li>
+              <li><a href="">Status da Compra</a></li>
               <li><a href="">Promo</a></li>
-              <li><a href="">Payment Method</a></li>
+              <li><a href="">Método de Pagamento</a></li>
           </ul>
         </div>
 
         <div className="other">
-          <h3>Other</h3>
+          <h3>Outros</h3>
           <ul>
-              <li><a href="">Contact Us</a></li>
-              <li><a href="">Help</a></li>
-              <li><a href="">Privacy</a></li>
+              <li><a href="">Contato</a></li>
+              <li><a href="">Ajuda</a></li>
+              <li><a href="">Privacidade</a></li>
           </ul>
         </div>
    

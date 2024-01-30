@@ -25,3 +25,13 @@
 .lists{
     display: flex;
 }
+@media screen and (max-width: 768px){
+    .partnerStores-container{
+        width: 93vw;
+        height: 400px;
+        margin-left: 10px;
+    } 
+    .partnerStores-container li{
+        font-size: 12px;
+    }
+}

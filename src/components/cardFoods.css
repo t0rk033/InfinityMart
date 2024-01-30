@@ -1,0 +1,127 @@
+.cardFoods{
+    width: 375px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 40px;
+    
+}
+.foodCardContainer{
+    background-color: #CD0937;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 12px;
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.651);
+    color: #fff;
+text-align: center;
+}
+.foodCardContainer img{
+    width: 15vw;
+    height: 35vh;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.315),-4px -6px 8px rgba(0, 0, 0, 0.315);
+}
+.foodsBuyBtn{
+    padding: 10px 13px;
+    border: none;
+    border-radius: 12px;
+    background-color: #09A3C6;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.foodsBuyBtn:hover{
+    opacity: .8;
+}
+.info-food{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 5px;
+}
+
+
+
+.searchContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    gap: 30px;
+    position: relative;
+    top: 40px;
+    margin-bottom: 40px;
+}
+.searchContainer input[type='text']{
+    border-radius: 10px;
+    border-color: #CD0937;
+    border-width: 2.5px;
+    width: 40vw;
+    height: 3vh;
+    text-align: center;
+    outline:none;
+    font-size: 18px;
+    padding: 15px;
+    font-weight: bolder;
+  
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    gap: 5px;
+    position: relative;
+    top: 30px;
+    margin-bottom: 30px;
+   
+}
+.pagination button{
+    padding: 10px;
+    background-color: #CD0937;
+    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.753);
+    border: none;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 18px;
+    cursor: pointer;
+}
+.cartBtn{
+    width: 7vh;
+    height: 7vh;
+    border-radius: 5px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    background-color: #069bbd;
+    border: none;
+    color: #FFFF;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 1;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.cartBtn:hover{
+    opacity: .8;
+}
+@media screen and (max-width: 768px){
+    .cardFoods{
+        grid-template-columns: repeat(1, 1fr);
+        width: 90vw;
+    }
+    .foodCardContainer img{
+        width: 80vw;
+    }
+    .searchContainer input[type='text']{
+        width: 80vw;
+        
+    }
+}

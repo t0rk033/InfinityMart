@@ -1,0 +1,58 @@
+.singInContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+.SingInForm{
+    height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #cd0937;
+    padding: 40px 60px;
+    margin-top: 30px;
+    border-radius: 22px;
+    color: #fff;
+    font-weight: bolder;
+    gap: 10px;
+    width: 40vw;
+    height: 55vh;
+}
+.SingInForm input{
+    border: none;
+border-radius: 18px;
+outline: none;
+text-align: center;
+font-size: 18px;
+padding: 5px;
+}
+.singInBtn{
+padding: 10px 0px;
+color: #fff;
+background-color: #09A3C6;
+border: none;
+position: relative;
+left: 110px;
+
+}
+.singInBtn:hover{
+    opacity: .8;
+}
+.singInContainer h2{
+font-size: 48px;
+color: #22222297;
+}
+.loginLink{
+    position: relative;
+    top: 30px;
+    right: 10px;
+}
+@media screen and (max-width:768px){
+    .SingInForm{
+        width: 80vw;
+    }
+}
