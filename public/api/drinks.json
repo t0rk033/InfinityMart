@@ -1,0 +1,99 @@
+[
+    {
+      "id": 1,
+      "name": "Refrigerante de Cola",
+      "brand": "Coca-Cola",
+      "volume_ml": 500,
+      "price": 3.50,
+      "img": "../assets/images/drinks/cocaCola.png"
+    },
+    {
+      "id": 2,
+      "name": "Água Mineral",
+      "brand": "Crystal",
+      "volume_ml": 1000,
+      "price": 1.50,
+      "img": "../assets/images/drinks/aguaMineral.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Suco de Laranja",
+      "brand": "Del Valle",
+      "volume_ml": 1000,
+      "price": 4.00,
+      "img": "../assets/images/drinks/sucoLaranja.webp"
+    },
+    {
+      "id": 4,
+      "name": "Cerveja Pilsen",
+      "brand": "Brahma",
+      "volume_ml": 355,
+      "price": 2.50,
+      "img": "../assets/images/drinks/cerveja.webp"
+    },
+    {
+      "id": 5,
+      "name": "Chá Verde",
+      "brand": "Lipton",
+      "volume_ml": 500,
+      "price": 2.00,
+      "img": "../assets/images/drinks/chaVerde.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Café Instantâneo",
+      "brand": "Nescafé",
+      "volume_ml": 200,
+      "price": 5.00,
+      "img": "../assets/images/drinks/café.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Energético",
+      "brand": "Red Bull",
+      "volume_ml": 250,
+      "price": 6.50,
+      "img": "../assets/images/drinks/energetico.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Leite de Amêndoas",
+      "brand": "Almond Breeze",
+      "volume_ml": 946,
+      "price": 7.00,
+      "img": "../assets/images/drinks/leiteAmendoas.webp"
+    },
+    {
+      "id": 9,
+      "name": "Vinho Tinto",
+      "brand": "Casillero del Diablo",
+      "volume_ml": 750,
+      "price": 15.00,
+      "img": "../assets/images/drinks/vinho.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Isotônico",
+      "brand": "Gatorade",
+      "volume_ml": 500,
+      "price": 2.75,
+      "img": "../assets/images/drinks/gatorade.webp"
+    },
+    {
+      "id": 11,
+      "name": "Água de Coco",
+      "brand": "CocoJoy",
+      "volume_ml": 1000,
+      "price": 3.50,
+      "img": "../assets/images/drinks/aguaCoco.jpeg"
+    },
+    
+    {
+      "id": 12,
+      "name": "Milkshake de Chocolate",
+      "brand": "Nestlé",
+      "volume_ml": 350,
+      "price": 6.00,
+      "img": "../assets/images/drinks/milkShake.jpg"
+    }
+  ]

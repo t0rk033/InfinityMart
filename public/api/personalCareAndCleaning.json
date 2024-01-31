@@ -1,0 +1,110 @@
+[
+      {
+        "id": 1,
+        "name": "Sabonete Líquido",
+        "brand": "Dove",
+        "volume_ml": 250,
+        "price": 5.50,
+        "img": "../assets/images/personalCare/saboneteLiquido.avif"
+      },
+      {
+        "id": 2,
+        "name": "Shampoo",
+        "brand": "Pantene",
+        "volume_ml": 400,
+        "price": 8.00,
+        "img": "../assets/images/personalCare/shampoo.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Creme Dental",
+        "brand": "Colgate",
+        "volume_ml": 150,
+        "price": 2.50,
+        "img": "../assets/images/personalCare/pastasDentes.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Desodorante Roll-on",
+        "brand": "Nivea",
+        "volume_ml": 50,
+        "price": 4.00,
+        "img": "../assets/images/personalCare/desoRollon.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Papel Higiênico",
+        "brand": "Suzano",
+        "quantity": 4,
+        "price": 6.50,
+        "img": "../assets/images/personalCare/limpaRaba.avif"
+      },
+      {
+        "id": 6,
+        "name": "Detergente Líquido",
+        "brand": "Ypê",
+        "volume_ml": 500,
+        "price": 3.00,
+        "img": "../assets/images/personalCare/detergente.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Amaciante de Roupas",
+        "brand": "Downy",
+        "volume_ml": 750,
+        "price": 9.00,
+        "img": "../assets/images/personalCare/amaciante.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Escova de Cabelo",
+        "brand": "Vult",
+        "type": "Paddle",
+        "price": 12.50,
+        "img": "../assets/images/personalCare/escovaCabelo.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Sabonete em Barra",
+        "brand": "Lux",
+        "fragrance": "Lavanda",
+        "quantity": 3,
+        "price": 7.00,
+        "img": "../assets/images/personalCare/saboneteBarra.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Cotonetes",
+        "brand": "Johnson's",
+        "quantity": 200,
+        "price": 4.50,
+        "img": "../assets/images/personalCare/cotonetes.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Fio Dental",
+        "brand": "Oral-B",
+        "quantity": 50,
+        "price": 3.50,
+        "img": "../assets/images/personalCare/fioDental.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Lâminas de Barbear",
+        "brand": "Gillette",
+        "quantity": 10,
+        "price": 12.00,
+        "img": "../assets/images/personalCare/gilete.jpg"
+      },
+   
+      {
+        "id": 13,
+        "name": "Esponja de Banho",
+        "brand": "Natura",
+        "type": "Vegetal",
+        "price": 3.50,
+        "img": "../assets/images/personalCare/esponjaBanho.jpg"
+      }
+    ]
+  
+  

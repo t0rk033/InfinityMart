@@ -44,8 +44,21 @@ ul {
   color: #fff;
   display: none;
 }
-.menu-btn i:hover {
+.menu-btn i, .LoginBtn button:hover {
   color: #c6a1a1;
+}
+.LoginBtn button,.LoginBtn button i{
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  position: relative;
+ 
+}
+.LoginBtn p{
+  position: relative;
+  top: 2px;
 }
 @media screen and (max-width: 768px) {
   .menu-btn i {

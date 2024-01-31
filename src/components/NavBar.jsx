@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './navBar.css'
 import { Link } from 'react-router-dom';
+import LoginButton from './LoginButton';
 
 function NavBar() {
   const [menuBtn, setMenuBtn] = useState('')
@@ -13,7 +14,7 @@ function NavBar() {
         <div className="left-navbar">
         <Link to='/' onClick={changeClass} className='logo'>InfinityMart</Link>
         <ul className='navLinks'>
-            <li><Link onClick={changeClass} to='/login'><i className='bx bxs-user'></i> Login</Link></li>
+            <li className='LoginBtn'><LoginButton/></li>
             <li><Link onClick={changeClass} to='/suport'><i className='bx bx-headphone'></i> Suporte</Link></li>
         </ul>
         </div>

@@ -1,9 +1,20 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import CardFoods from '../../components/CardFoods';
 
 function PersonalCareAndCleaning() {
+  const [personalCare, setPersonalCare] = useState([])
+
+  const fetchData = ()=>{
+    fetch('http://localhost:3000/api/personalCareAndCleaning.json').then((res)=>res.json()).then((data)=>{
+      setPersonalCare(data);
+    }).catch((e)=> console.log(e.message))
+  }
+useEffect(()=>{
+  fetchData()
+}, [])
   return (
     <div>
-      <h2>Aqui será a página de cuidados pessoais e limpeza</h2>
+      <CardFoods setItem={personalCare} />
     </div>
   )
 }
