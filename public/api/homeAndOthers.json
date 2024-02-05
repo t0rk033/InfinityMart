@@ -1,0 +1,80 @@
+[
+ 
+    {
+        "id": 66,
+        "name": "Caneta Esferográfica",
+        "price": 1.49,
+        "img": "../assets/images/homeAndOthers/caneta.webp",
+        "category": "Produtos para o Lar"
+    },
+    {
+        "id": 67,
+        "name": "Conjunto de Utensílios Domésticos",
+        "price": 19.99,
+        "img": "../assets/images/homeAndOthers/utensilios.avif",
+        "category": "Produtos para o Lar"
+    },
+    {
+        "id": 68,
+        "name": "Ração para Cães",
+        "price": 29.99,
+        "img": "../assets/images/homeAndOthers/racao.avif",
+        "category": "Pet Shop"
+    },
+    {
+        "id": 69,
+        "name": "Coleira para Gatos",
+        "price": 8.99,
+        "img": "../assets/images/homeAndOthers/coleiraGato.jpg",
+        "category": "Pet Shop"
+    },
+    {
+        "id": 70,
+        "name": "Lâmpada LED",
+        "price": 6.49,
+        "img": "../assets/images/homeAndOthers/lampada.webp",
+        "category": "Produtos de Tecnologia e Limpeza Doméstica"
+    },
+    {
+        "id": 71,
+        "name": "Pilhas AA (pacote com 4)",
+        "price": 4.99,
+        "img": "../assets/images/homeAndOthers/pilhasAA.avif",
+        "category": "Produtos de Tecnologia e Limpeza Doméstica"
+    },
+    {
+        "id": 72,
+        "name": "Fone de Ouvido Bluetooth",
+        "price": 399.99,
+        "img": "../assets/images/homeAndOthers/fones.webp",
+        "category": "Produtos de Tecnologia e Limpeza Doméstica"
+    },
+    {
+        "id": 73,
+        "name": "Papel Sulfite (pacote com 100 folhas)",
+        "price": 8.49,
+        "img": "../assets/images/homeAndOthers/papel.webp",
+        "category": "Produtos para o Lar"
+    },
+    {
+        "id": 74,
+        "name": "Brinquedo para Gatos",
+        "price": 5.99,
+        "img": "../assets/images/homeAndOthers/brinquedoGato.jpg",
+        "category": "Pet Shop"
+    },
+    {
+        "id": 75,
+        "name": "Carregador USB",
+        "price": 12.99,
+        "img": "../assets/images/homeAndOthers/carregador.avif",
+        "category": "Produtos de Tecnologia e Limpeza Doméstica"
+    },
+    {
+        "id": 76,
+        "name": "Pano de Limpeza Multiuso",
+        "price": 2.49,
+        "img": "../assets/images/homeAndOthers/panolimpeza.avif",
+        "category": "Produtos para o Lar"
+    }
+]

@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './cart.css'
-function Cart({cart, shoppingCart, removeCart,calculateTotal}) {
- 
+
+function Cart({cart,shoppingCart,calculateTotal, removeToCart}){
+   
   return (
     <div className={`${cart} cartContainer`}>
         <div className="cartInner">
@@ -19,7 +20,7 @@ function Cart({cart, shoppingCart, removeCart,calculateTotal}) {
               {shoppingCart.map((item) => (
                 <tr key={item.id} className="product">
                   <td className="image-product"><img src={item.img} alt={item.name} /></td>
-                  <td className="price">{`$${item.price.toFixed(2)}`}</td>
+                  <td className="price">{item && item.price ? `$${item.price.toFixed(2)}` : 'N/A'}</td>
                   <td>
                     <input
                       type="number"
@@ -32,7 +33,7 @@ function Cart({cart, shoppingCart, removeCart,calculateTotal}) {
                   <td>
                     <button
                       className="removeBtn"
-                      onClick={()=> removeCart(item.id)}
+                      onClick={()=> removeToCart(item.id)}
                     >
                       X
                     </button>

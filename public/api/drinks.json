@@ -1,4 +1,5 @@
-[
+{
+  "drinks":[
     {
       "id": 1,
       "name": "Refrigerante de Cola",
@@ -96,4 +97,79 @@
       "price": 6.00,
       "img": "../assets/images/drinks/milkShake.jpg"
     }
+  ],
+  "DryAndCannedFoods":[
+    {
+      "id": 13,
+      "name": "Açucar",
+      "price": 21.50,
+      "img": "../assets/images/DryAndCannedFoods/açucar.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Arroz",
+      "price": 29.90,
+      "img": "../assets/images/DryAndCannedFoods/arroz.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Aveia",
+      "price": 10.90,
+      "img": "../assets/images/DryAndCannedFoods/aveia.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Farinha de Trigo",
+      "price": 6.99,
+      "img": "../assets/images/DryAndCannedFoods/farinha_Trigo.webp"
+    },
+    {
+      "id": 17,
+      "name": "Feijão",
+      "price": 9.99,
+      "img": "../assets/images/DryAndCannedFoods/feijao.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Grão de bico",
+      "price": 15.50,
+      "img": "../assets/images/DryAndCannedFoods/graoDeBico.webp"
+    },
+    {
+      "id": 19,
+      "name": "LegumesDesidratados",
+      "price": 19.99,
+      "img": "../assets/images/DryAndCannedFoods/legumesDesidratados.webp"
+    },
+    {
+      "id": 20,
+      "name": "Lentilhas",
+      "price": 14.99,
+      "img": "../assets/images/DryAndCannedFoods/lentilhas.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Macarrão",
+      "price": 4.99,
+      "img": "../assets/images/DryAndCannedFoods/macarrao.webp"
+    },
+    {
+      "id": 22,
+      "name": "Molho de tomate",
+      "price": 1.19,
+      "img": "../assets/images/DryAndCannedFoods/massaTomate.webp"
+    },
+    {
+      "id": 23,
+      "name": "Quinoa",
+      "price": 13.16,
+      "img": "../assets/images/DryAndCannedFoods/quinoa.webp"
+    },
+    {
+      "id": 24,
+      "name": "Sal",
+      "price": 4.99,
+      "img": "../assets/images/DryAndCannedFoods/sal.jpg"
+    }
   ]
+}

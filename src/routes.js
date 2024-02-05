@@ -5,7 +5,6 @@ import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import LoginPage from './pages/login/LoginPage'
 import FreshFood from './pages/freshFoodsPage/FreshFood'
-import Suport from './pages/suport/Suport'
 import DryAndCannedFoods from './pages/DryAndCannedFoods/DryAndCannedFoods'
 import FrozenProducts from './pages/FrozenProducts/FrozenProducts'
 import Drinks from './pages/drinks/Drinks'
@@ -22,7 +21,6 @@ function routes() {
         <Route path='/' element={<Home/>} />
         <Route path='/login' element={< LoginPage />} />
         <Route path='/freshfoods' element={<FreshFood/>} />
-        <Route path='/suport' element={<Suport/>}/>
         <Route path='/DryAndCannedFoods' element={<DryAndCannedFoods/>}/>
         <Route path='/FrozenProducts' element={<FrozenProducts/>}/>
         <Route path='/drinks' element={<Drinks/>}/>

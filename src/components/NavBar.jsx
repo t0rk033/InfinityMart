@@ -15,7 +15,6 @@ function NavBar() {
         <Link to='/' onClick={changeClass} className='logo'>InfinityMart</Link>
         <ul className='navLinks'>
             <li className='LoginBtn'><LoginButton/></li>
-            <li><Link onClick={changeClass} to='/suport'><i className='bx bx-headphone'></i> Suporte</Link></li>
         </ul>
         </div>
         <div className="right-navbar">

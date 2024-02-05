@@ -7,3 +7,36 @@
     color: #FFF;
     font-weight: bold;
 }
+.name{
+    text-transform: uppercase;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown img{
+    padding: 10px;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #912930;
+    padding: 48px;
+    box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.247),-2px -2px 16px rgba(0, 0, 0, 0.562);
+    font-size: 22px;
+    margin-top: 0px;
+    width: 350px;
+    border-radius: 22px;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu li {
+    display: block;
+}
+.userIcon{
+    font-size: 28px;
+    display: flex;
+    cursor: pointer;
+    padding: 20px;
+}

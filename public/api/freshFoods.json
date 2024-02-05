@@ -1,14 +1,14 @@
 [
   
-      {"id": 1, "name": "Maçã", "price": 2.5, "img": "../assets/images/freshFoodsImages/apples.jpg"},
-      {"id": 2, "name": "Banana", "price": 1.8, "img": "../assets/images/freshFoodsImages/banana.jpg"},
-      {"id": 3, "name": "Cenoura", "price": 1.2, "img": "../assets/images/freshFoodsImages/cenoura.avif"},
-      {"id": 4, "name": "Laranja", "price": 2.0, "img": "../assets/images/freshFoodsImages/orange.avif"},
-      {"id": 5, "name": "Alface", "price": 1.5, "img": "../assets/images/freshFoodsImages/alface.avif"},
-      {"id": 6, "name": "Tomate", "price": 1.0, "img": "../assets/images/freshFoodsImages/tomato.avif"},
-      {"id": 7, "name": "Pepino", "price": 1.2, "img": "../assets/images/freshFoodsImages/pepino.avif"},
-      {"id": 8, "name": "Abacaxi", "price": 3.0, "img": "../assets/images/freshFoodsImages/pineaple.avif"},
-      {"id": 9, "name": "Uva", "price": 4.0, "img": "../assets/images/freshFoodsImages/uva.avif"},
-      {"id": 10, "name": "Brócolis", "price": 2.5, "img": "../assets/images/freshFoodsImages/brocolis.jpg"}
+      {"id": 25, "name": "Maçã", "price": 2.5, "img": "../assets/images/freshFoodsImages/apples.jpg"},
+      {"id": 26, "name": "Banana", "price": 1.8, "img": "../assets/images/freshFoodsImages/banana.jpg"},
+      {"id": 27, "name": "Cenoura", "price": 1.2, "img": "../assets/images/freshFoodsImages/cenoura.avif"},
+      {"id": 28, "name": "Laranja", "price": 2.0, "img": "../assets/images/freshFoodsImages/orange.avif"},
+      {"id": 29, "name": "Alface", "price": 1.5, "img": "../assets/images/freshFoodsImages/alface.avif"},
+      {"id": 30, "name": "Tomate", "price": 1.0, "img": "../assets/images/freshFoodsImages/tomato.avif"},
+      {"id": 31, "name": "Pepino", "price": 1.2, "img": "../assets/images/freshFoodsImages/pepino.avif"},
+      {"id": 32, "name": "Abacaxi", "price": 3.0, "img": "../assets/images/freshFoodsImages/pineaple.avif"},
+      {"id":33, "name": "Uva", "price": 4.0, "img": "../assets/images/freshFoodsImages/uva.avif"},
+      {"id": 34, "name": "Brócolis", "price": 2.5, "img": "../assets/images/freshFoodsImages/brocolis.jpg"}
 ]
       

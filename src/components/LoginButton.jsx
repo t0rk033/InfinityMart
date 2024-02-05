@@ -30,8 +30,16 @@ function LoginButton() {
     <div >
     {user ? (
       <div className='textButton'>
-        <p>Olá: {getUserNameFromEmail(user.email)}</p>
-        <button onClick={handleLogout}>Sair</button>
+        <ul className='dropdown'>
+        <li className='userIcon'><i class='bx bx-user-circle'></i></li>
+          <ul className="dropdown-menu">
+            <li>
+              <p>Olá, <span className='name'>{getUserNameFromEmail(user.email)}</span></p>
+            </li>
+            <li><a href="#">Perfil</a></li>
+            <li><button onClick={handleLogout}>Sair</button></li>
+          </ul>
+        </ul>
       </div>
     ) : (
       <button onClick={() => navigate('/login')}><i className='bx bxs-user' >Login</i></button>

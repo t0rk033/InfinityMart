@@ -4,8 +4,9 @@ import CardFoods from '../../components/CardFoods';
 function DryAndCannedFoods() {
   const [dryAndCannedFoods, setDryAndCannedFoods] = useState([])
   const fetchData = () => {
-    fetch('http://localhost:3000/api/DryAndCannedFoods.json').then((res)=>res.json()).then((data)=>{
-  setDryAndCannedFoods(data)
+    fetch('http://localhost:3000/api/Drinks.json').then((res)=>res.json()).then((data)=>{
+      const DryAndCannedFoods = data.DryAndCannedFoods;
+  setDryAndCannedFoods(DryAndCannedFoods)
   }).catch((e)=> console.log(e.message));
   };
   useEffect(()=>{

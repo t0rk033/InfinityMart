@@ -1,6 +1,6 @@
 [
       {
-        "id": 1,
+        "id": 52,
         "name": "Sabonete Líquido",
         "brand": "Dove",
         "volume_ml": 250,
@@ -8,7 +8,7 @@
         "img": "../assets/images/personalCare/saboneteLiquido.avif"
       },
       {
-        "id": 2,
+        "id": 53,
         "name": "Shampoo",
         "brand": "Pantene",
         "volume_ml": 400,
@@ -16,7 +16,7 @@
         "img": "../assets/images/personalCare/shampoo.jpg"
       },
       {
-        "id": 3,
+        "id": 54,
         "name": "Creme Dental",
         "brand": "Colgate",
         "volume_ml": 150,
@@ -24,7 +24,7 @@
         "img": "../assets/images/personalCare/pastasDentes.jpg"
       },
       {
-        "id": 4,
+        "id": 55,
         "name": "Desodorante Roll-on",
         "brand": "Nivea",
         "volume_ml": 50,
@@ -32,7 +32,7 @@
         "img": "../assets/images/personalCare/desoRollon.jpg"
       },
       {
-        "id": 5,
+        "id": 56,
         "name": "Papel Higiênico",
         "brand": "Suzano",
         "quantity": 4,
@@ -40,7 +40,7 @@
         "img": "../assets/images/personalCare/limpaRaba.avif"
       },
       {
-        "id": 6,
+        "id": 57,
         "name": "Detergente Líquido",
         "brand": "Ypê",
         "volume_ml": 500,
@@ -48,7 +48,7 @@
         "img": "../assets/images/personalCare/detergente.jpg"
       },
       {
-        "id": 7,
+        "id": 58,
         "name": "Amaciante de Roupas",
         "brand": "Downy",
         "volume_ml": 750,
@@ -56,7 +56,7 @@
         "img": "../assets/images/personalCare/amaciante.jpg"
       },
       {
-        "id": 8,
+        "id": 59,
         "name": "Escova de Cabelo",
         "brand": "Vult",
         "type": "Paddle",
@@ -64,7 +64,7 @@
         "img": "../assets/images/personalCare/escovaCabelo.jpg"
       },
       {
-        "id": 9,
+        "id": 60,
         "name": "Sabonete em Barra",
         "brand": "Lux",
         "fragrance": "Lavanda",
@@ -73,7 +73,7 @@
         "img": "../assets/images/personalCare/saboneteBarra.jpg"
       },
       {
-        "id": 10,
+        "id": 61,
         "name": "Cotonetes",
         "brand": "Johnson's",
         "quantity": 200,
@@ -81,7 +81,7 @@
         "img": "../assets/images/personalCare/cotonetes.jpg"
       },
       {
-        "id": 11,
+        "id": 62,
         "name": "Fio Dental",
         "brand": "Oral-B",
         "quantity": 50,
@@ -89,7 +89,7 @@
         "img": "../assets/images/personalCare/fioDental.jpg"
       },
       {
-        "id": 12,
+        "id": 63,
         "name": "Lâminas de Barbear",
         "brand": "Gillette",
         "quantity": 10,
@@ -98,7 +98,7 @@
       },
    
       {
-        "id": 13,
+        "id": 64,
         "name": "Esponja de Banho",
         "brand": "Natura",
         "type": "Vegetal",
