@@ -11,6 +11,7 @@ import Drinks from './pages/drinks/Drinks'
 import PersonalCareAndCleaning from './pages/PersonalCareAndCleaning/PersonalCareAndCleaning'
 import HomeAndOthers from './pages/HomeAndOthers/HomeAndOthers'
 import SingIn from './pages/singIn/SingIn'
+import AboutProduct from './pages/aboutProduct/AboutProduct'
 
 
 function routes() {
@@ -27,6 +28,7 @@ function routes() {
         <Route path='/PersonalCareAndCleaning' element={<PersonalCareAndCleaning/>}/>
         <Route path='/HomeAndOthers' element={<HomeAndOthers/>}/>
         <Route path='/singin' element={<SingIn/>}/>
+        <Route path='about-product' element={<AboutProduct/>} />
     </Routes>
     <Footer />
   </HashRouter>

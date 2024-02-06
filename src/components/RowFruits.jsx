@@ -22,7 +22,7 @@ function RowFruits() {
           {rowFruits.map((fruit) => (
             <div key={fruit.id} className="fruit-card">
               <img src={fruit.img} alt={fruit.name} className="fruit-img" />
-              <p className="info-fruits">Lorem ipsum dolor sit amet consectetur</p>
+              <p className="info-fruits">{fruit.name}</p>
               <span className="price">{`$${fruit.price.toFixed(2)}`}</span>
               <button className="buyFruit-btn">Comprar</button>
             </div>

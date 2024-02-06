@@ -17,7 +17,7 @@
       "name": "Acerola",
       "price": 29.95,
       "img": "../assets/images/fruitsImages/acerola.webp"
-    },
+    }, 
     {
       "id": 49,
       "name": "Tangerina",

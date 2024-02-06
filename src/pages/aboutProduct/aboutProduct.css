@@ -1,0 +1,37 @@
+.img{
+    height: 550px;
+    width: 550px;
+    background-color: black;
+    margin: 40px;
+    border-radius: 15px;
+}
+.aboutProductContainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    gap: 30px;
+}
+.info h2{
+font-size: 42px;
+}
+.priceAboutProduct{
+    font-size: 28px;
+}
+.addCartBtn{
+    border: none;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #FFF;
+    font-weight: bold;
+    background-color: #09A3C6;
+    cursor: pointer;
+}
+.addCartBtn:hover{
+    opacity: .8;
+}

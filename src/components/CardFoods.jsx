@@ -54,7 +54,7 @@ function CardFoods({ setItem }) {
   };
   //______________________________________________________
 
-  const userId = "thiago@gmail.com"; // Substitua pelo ID do usuário
+  const userId = "thiago@gmail.com";
 
   const addToCart = (food) => {
     if (food) {
