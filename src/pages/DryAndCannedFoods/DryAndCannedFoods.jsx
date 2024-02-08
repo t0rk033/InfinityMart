@@ -4,7 +4,7 @@ import CardFoods from '../../components/CardFoods';
 function DryAndCannedFoods() {
   const [dryAndCannedFoods, setDryAndCannedFoods] = useState([])
   const fetchData = () => {
-    fetch('http://localhost:3000/api/Drinks.json').then((res)=>res.json()).then((data)=>{
+    fetch('https://infinity-mart.vercel.app/api/drinks.json').then((res)=>res.json()).then((data)=>{
       const DryAndCannedFoods = data.DryAndCannedFoods;
   setDryAndCannedFoods(DryAndCannedFoods)
   }).catch((e)=> console.log(e.message));
