@@ -5,7 +5,7 @@ function PersonalCareAndCleaning() {
   const [personalCare, setPersonalCare] = useState([])
 
   const fetchData = ()=>{
-    fetch('http://localhost:3000/api/personalCareAndCleaning.json').then((res)=>res.json()).then((data)=>{
+    fetch('https://infinity-mart.vercel.app/api/personalCareAndCleaning.json').then((res)=>res.json()).then((data)=>{
       setPersonalCare(data);
     }).catch((e)=> console.log(e.message))
   }
