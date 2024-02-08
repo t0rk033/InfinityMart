@@ -4,7 +4,7 @@ import CardFoods from "../../components/CardFoods";
 function FreshFood() {
   const [freshFoods, setFreshFoods] = useState([]);
   const fetchData = () => {
-    fetch("http://localhost:3000/api/freshFoods.json")
+    fetch("https://infinity-mart.vercel.app/api/freshFoods.json")
       .then((res) => res.json())
       .then((data) => {
         setFreshFoods(data);
