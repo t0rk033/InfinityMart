@@ -4,7 +4,7 @@ function RowFruits() {
   const [rowFruits, setRowFruits] = useState([]);
 
   const fetchData = () => {
-    fetch("http://localhost:3000/api/fruitsData.json")
+    fetch("https://infinity-mart.vercel.app/api/fruitsData.json")
       .then((res) => res.json())
       .then((data) => {
         const sixItems = data.slice(0, 6);
