@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import './cart.css'
 
 function Cart({cart,shoppingCart,calculateTotal, removeToCart}){
-   
+  
   return (
     <div className={`${cart} cartContainer`}>
         <div className="cartInner">
@@ -44,7 +44,7 @@ function Cart({cart,shoppingCart,calculateTotal, removeToCart}){
             </tbody>
             <div className="finalizePurchase">
               <span>Total:{`$${calculateTotal().toFixed(2)}`}</span>
-              <button className='finalizePurchaseBtn'>Finalizar Compra</button>
+              <button className='finalizePurchaseBtn' onClick={() => alert("Compra finalizada!") }>Finalizar Compra</button>
             </div>
                 </table>
         </div>

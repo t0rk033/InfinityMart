@@ -138,7 +138,7 @@ function CardFoods({ setItem }) {
                   search: `?id=${food.id}&name=${encodeURIComponent(
                     food.name
                   )}&price=${food.price}&img=${encodeURIComponent(food.img)}`,
-                  state: { addToCart: addToCart },
+                  state: { addToCart: addCart },
                 }}
                 className="foodLink"
               >

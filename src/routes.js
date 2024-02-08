@@ -12,12 +12,14 @@ import PersonalCareAndCleaning from './pages/PersonalCareAndCleaning/PersonalCar
 import HomeAndOthers from './pages/HomeAndOthers/HomeAndOthers'
 import SingIn from './pages/singIn/SingIn'
 import AboutProduct from './pages/aboutProduct/AboutProduct'
+import Cart from './components/Cart'
 
 
 function routes() {
   return (
   <HashRouter>
     <NavBar />
+    
     <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/login' element={< LoginPage />} />
