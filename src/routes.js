@@ -28,7 +28,7 @@ function routes() {
         <Route path='/PersonalCareAndCleaning' element={<PersonalCareAndCleaning/>}/>
         <Route path='/HomeAndOthers' element={<HomeAndOthers/>}/>
         <Route path='/singin' element={<SingIn/>}/>
-        <Route path='about-product' element={<AboutProduct/>} />
+        <Route path="/about-product/*" element={<AboutProduct />} />
     </Routes>
     <Footer />
   </HashRouter>

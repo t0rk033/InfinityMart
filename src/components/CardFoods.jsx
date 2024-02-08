@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./cardFoods.css";
 import Cart from "./Cart";
+import { Link } from "react-router-dom";
 
 function CardFoods({ setItem }) {
   //barra de pesquisa
@@ -61,7 +62,7 @@ function CardFoods({ setItem }) {
       const updatedCart = [...shoppingCart, food];
       updateLocalStorage(updatedCart);
       setShoppingCart(updatedCart);
-      addCart(food)
+      addCart(food);
     }
   };
 
@@ -92,10 +93,10 @@ function CardFoods({ setItem }) {
           setShoppingCart(JSON.parse(storedCart));
         }
       } catch (error) {
-        console.error('Error fetching localStorage:', error.message);
+        console.error("Error fetching localStorage:", error.message);
       }
     };
-  
+
     fetchCartData();
   }, [userId, setShoppingCart]);
 
@@ -131,20 +132,31 @@ function CardFoods({ setItem }) {
       <div className="cardFoods">
         {currentItems.map((food) => (
           <div key={food.id} className="foodCardContainer">
-            <img src={food.img} alt={food.name} />
-            <div className="info-food">
-              <h3 className="foodName">{food.name}</h3>
-              <span className="price">{`$${food.price.toFixed(2)}`}</span>
-              <button
-                className="foodsBuyBtn"
-                onClick={() => {
-                  addToCart(food);
+              <Link
+                to={{
+                  pathname: "/about-product",
+                  search: `?id=${food.id}&name=${encodeURIComponent(
+                    food.name
+                  )}&price=${food.price}&img=${encodeURIComponent(food.img)}`,
+                  state: { addToCart: addToCart },
                 }}
+                className="foodLink"
               >
-                Comprar
-              </button>
+              <img src={food.img} alt={food.name} />
+                </Link>
+              <div className="info-food">
+                <h3 className="foodName">{food.name}</h3>
+                <span className="price">{`$${food.price.toFixed(2)}`}</span>
+                <button
+                  className="foodsBuyBtn"
+                  onClick={() => {
+                    addToCart(food);
+                  }}
+                  >
+                  Comprar
+                </button>
+              </div>
             </div>
-          </div>
         ))}
       </div>
       <div className="pagination">

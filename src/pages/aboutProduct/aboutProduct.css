@@ -1,7 +1,7 @@
-.img{
+.img-aboutProduct{
     height: 550px;
     width: 550px;
-    background-color: black;
+    box-shadow: 3px 4px 6px #0000006b;
     margin: 40px;
     border-radius: 15px;
 }
