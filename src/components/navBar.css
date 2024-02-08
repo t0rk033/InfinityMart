@@ -6,6 +6,7 @@
   height: 2vh;
   align-items: center;
   padding: 30px;
+  overflow: auto;
 }
 .left-navbar {
   display: flex;
